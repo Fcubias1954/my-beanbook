@@ -54,3 +54,21 @@ div p {
     padding-right: 150px;
     margin-right: 100px; 
 }
+label {
+    display: block;
+    font: 25px Times;
+    margin-left: 70px
+    
+}
+
+input[type='submit'],
+label {
+    margin-top: 2rem;
+    margin-left: 70px
+}
+input#username {
+    margin-left: 70px;
+}
+input#pass {
+    margin-left: 70px;
+}

@@ -3,7 +3,6 @@
     <head>
         <link rel="stylesheet" href="style.css" />
         <title>Beanbook</title>
-        
     </head>
     
     <body>
@@ -19,7 +18,7 @@
               </nav>
         </h3>   
         
-        <div class="pages">
+        <div>
                 <h3>
                     <span id="about">About</span>
                 </h3>
@@ -33,17 +32,27 @@
             <h3>
                 <span id="login">Member Log-In</span> 
             </h3>
-            <p> UserName: <br>
-                Password:
-            </p>
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div>
+                <label for="pass">Password (8 characters minimum):</label>
+                <input type="password" id="pass" name="password"
+                       minlength="8" required>
+            </div>
+            
+            <input type="submit" value="Sign in">
         </div>
 
         <div>
             <h3>
                 <span id="contact">Contact</span>
             </h3>
-            <p>E-mail us at: xChibiBean@gmail.com<br>
-                Or<br>Call: (233)542-9796</p>
+            <p>Have any questions? Or need help setting up your Beanbook account?<br> 
+                <br> 
+                E-mail us at: xChibiBean@gmail.com<br><br>
+                Or<br><br>Call: (233)542-9796</p>
         </div>
         <script src="script.js"></script>
     </body>
